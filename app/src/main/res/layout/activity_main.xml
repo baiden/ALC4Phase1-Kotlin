@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="252dp"
+            android:layout_marginEnd="88dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="AndroidWave.json"
+            app:lottie_loop="true"/>
+
+    <TextView
+            android:id="@+id/welcomeMsg_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="252dp"
+            android:text="@string/txt_welcome_msg"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/animation_view"
+            app:layout_constraintHorizontal_bias="0.804"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:fontFamily="@font/reenie_beanie"/>
+
+    <Button
+            android:id="@+id/aboutALC_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimension_standard"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="@dimen/dimension_standard"
+            android:elevation="10dp"
+            android:padding="16dp"
+            android:background="@drawable/button_custom"
+            android:text="@string/txt_about_alc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/welcomeMsg_textView"/>
+
+    <Button
+            android:id="@+id/myProfile_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimension_standard"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="@dimen/dimension_standard"
+            android:padding="16dp"
+            android:elevation="10dp"
+            android:background="@drawable/button_custom"
+            android:text="@string/txt_my_profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/aboutALC_button"/>
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimension_standard"
+            android:layout_marginBottom="@dimen/dimension_standard"
+            android:text="@string/greetings_from_ghana"
+            android:textSize="16sp"
+            android:drawablePadding="5dp"
+            android:singleLine="true"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:fontFamily="@font/reenie_beanie"/>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ALC4Phase1-Kotlin</string>
+    <string name="txt_welcome_msg">Welcome To\n ALC 4.0</string>
+    <string name="txt_my_profile">My Profile</string>
+    <string name="txt_about_alc">About ALC</string>
+    <string name="greetings_from_ghana">Made with ❤ from Ghana️</string>
+    <string name="notification_error_ssl_cert_invalid">SSL Error! Click continue to gain access to the page.</string>
+    <string name="background_image">background image</string>
+    <string name="user_name">Samuel Etsiakoh</string>
+    <string name="user_status">LCA Android Mentor</string>
+    <string name="send_message">Message</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="profile_description">Profile Description</string>
+    <string name="course_track">Android</string>
+    <string name="android_track">Android</string>
+    <string name="ghana_country">Ghana</string>
+    <string name="country">Country</string>
+    <string name="user_email">esgrey094@gmail.com</string>
+    <string name="email">Email</string>
+    <string name="user_phone_number">+233(0)50 337 7231</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="samuel">Samuel</string>
+    <string name="slack_username">Slack Username</string>
+</resources>
