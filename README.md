@@ -28,7 +28,7 @@ I enjoyed working on this project and had a challenge with the webview because t
 
 	MIT License
 
-	Copyright (c) 2018 Samuel Gracious Etsiakoh
+	Copyright (c) 2019 Samuel Gracious Etsiakoh
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
